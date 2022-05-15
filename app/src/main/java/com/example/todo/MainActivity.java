@@ -7,6 +7,9 @@ import androidx.fragment.app.Fragment;
 
 import com.example.todo.database.Todo;
 
+import com.example.todo.todo.TodoFragment;
+import com.example.todo.todo.UpdateFragment;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override

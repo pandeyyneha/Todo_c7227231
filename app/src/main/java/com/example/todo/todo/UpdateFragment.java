@@ -1,4 +1,4 @@
-package com.example.todo;
+package com.example.todo.todo;
 
 import android.app.DatePickerDialog;
 import android.os.Bundle;
@@ -13,6 +13,8 @@ import android.widget.RadioGroup;
 
 import androidx.fragment.app.Fragment;
 
+import com.example.todo.MainActivity;
+import com.example.todo.R;
 import com.example.todo.database.Todo;
 import com.example.todo.database.TodoRepository;
 
@@ -150,5 +152,8 @@ public class UpdateFragment extends Fragment {
         });
 
         return view;
+    }
+
+    public static class SplashActivity {
     }
 }

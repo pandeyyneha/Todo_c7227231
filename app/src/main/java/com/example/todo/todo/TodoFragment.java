@@ -1,4 +1,4 @@
-package com.example.todo;
+package com.example.todo.todo;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -20,6 +20,8 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.todo.MainActivity;
+import com.example.todo.R;
 import com.example.todo.database.Todo;
 import com.example.todo.database.TodoRepository;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;

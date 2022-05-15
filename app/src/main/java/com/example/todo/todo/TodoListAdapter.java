@@ -1,4 +1,4 @@
-package com.example.todo;
+package com.example.todo.todo;
 
 import android.content.Context;
 import android.graphics.drawable.GradientDrawable;
@@ -16,6 +16,7 @@ import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.todo.R;
 import com.example.todo.database.Todo;
 
 import java.util.List;
@@ -98,7 +99,7 @@ public class TodoListAdapter extends RecyclerView.Adapter<TodoListAdapter.TodoVi
             public void onClick(View view) {
                 AppCompatActivity activity = (AppCompatActivity) view.getContext();
                 FragmentTransaction fragmentTransaction = activity.getSupportFragmentManager().beginTransaction();
-                ViewFragment  viewFragment = new ViewFragment();
+                ViewFragment viewFragment = new ViewFragment();
                 Bundle args = new Bundle();
                 args.putString("task_title", current.getTitle());
                 args.putString("task_description", current.getDescription());
